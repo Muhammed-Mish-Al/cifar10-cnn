@@ -190,18 +190,14 @@ Some of the main concepts I worked with were:
 
 ## Future Plans
 
-I want to take this project beyond a Jupyter Notebook and turn it into a complete working machine learning pipeline.
+The next step for this project is to improve the current CNN model and compare it with the existing 68.10% baseline.
 
-The planned improvements, as time permits, include:
+The planned improvements(as time permits) include:
 
-- Add data augmentation to improve the model's ability to generalize
-- Experiment with dropout and batch normalization
-- Tune the model architecture and training parameters
-- Compare the current CNN with a transfer-learning approach
-- Save and load the trained model for inference
-- Build a simple backend API for making predictions
-- Create a small web interface where users can upload an image and receive a prediction
-- Containerize the application and organize the project into a proper production-style structure
-- Deploy the complete application so the trained model can be used outside the notebook
+- Build a CNN V2 with data augmentation
+- Add batch normalization and dropout
+- Experiment with the CNN architecture and training parameters
+- Compare CNN V2 with the current model
+- Analyze whether the improvements help with difficult classes such as cats, dogs and birds
 
-The goal is to move from a **training notebook to an end-to-end ML application**, covering the process from data and model training to inference, API integration, and deployment.
+The goal is to improve the model's generalization and achieve better performance while understanding how each change affects the results.
